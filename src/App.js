@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Weather from"./Weather";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <h1>
           Hello
         </h1>
+        <Weather />
       </header>
     </div>
   );
