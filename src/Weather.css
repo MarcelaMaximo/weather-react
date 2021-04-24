@@ -1,0 +1,45 @@
+.Weather {
+  color: black;
+  font-family: "Nunito", sans-serif;
+}
+.Weather h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1.2;
+}
+.Weather .country {
+  font-size: 17px;
+  font-weight: 500;
+}
+.Weather h2 {
+  font-size: 23px;
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+  font-weight: 100;
+}
+.Weather h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+}
+.Weather strong {
+  font-family: "Raleway", sans-serif;
+  line-height: 2;
+  font-size: 23.5px;
+  color: black;
+  font-weight: 400;
+}
+.Weather .celsius-left {
+  font-size: 18px;
+  color: white;
+}
+.Weather .temp {
+  color: black;
+  font-weight: bold;
+}
+.Weather .emoji {
+  width: 80px;
+  vertical-align: middle;
+}
