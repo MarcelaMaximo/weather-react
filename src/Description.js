@@ -4,20 +4,20 @@ import "./Description.css";
 export default function Description() {
   return (
     <div className="Description">
-      <div className="left">
-        <div className="Max">
+      <ul className="left">
+        <li className="Max">
           <strong>Max:</strong> 7°C
-        </div>
-        <div className="Min">
+        </li>
+        <li className="Max">
           <strong>Min:</strong> 9°C
-        </div>
-        <div className="extra-left">
+        </li>
+        <li className="Max">
           <strong>Wind:</strong> 3km/h
-        </div>
-        <div className="extra-left">
+        </li>
+        <li className="Max">
           <strong>Humidity:</strong> 45%
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 }

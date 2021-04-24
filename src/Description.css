@@ -1,8 +1,6 @@
-.Description .humidityimg {
-  width: 25px;
-}
-.Description .left {
+ul {
   line-height: 2;
   font-family: "Raleway", sans-serif;
   margin: 20px;
+  list-style-type: none;
 }

@@ -1,18 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
-export default function Header (){ 
-  
+
+export default function Header(){ 
   return (
-    <div className="Header">
-      <form id="search-form">
-        <input type="text" placeholder="Enter a city" id="Search-City" />
+     <form >
+        <input type="search" placeholder="Enter a city"/>
         <input
           type="submit"
           value="🔍"
           className="submitButton"
         />
-      </form>
-    </div>
-  );
+      </form>);
 }

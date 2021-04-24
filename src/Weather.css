@@ -38,6 +38,7 @@
 .Weather .temp {
   color: black;
   font-weight: bold;
+  font-size: 25px;
 }
 .Weather .emoji {
   width: 80px;
